@@ -1,0 +1,14 @@
+{
+  "name": "node-starting-point",
+  "version": "1.0.0",
+  "description": "this is to bootstrap a simple node application with test driver development",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Rajnish Dashora, Shivam Barsaley",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
