@@ -4,6 +4,7 @@
   "description": "this is to bootstrap a simple node application with test driver development",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha"
   },
   "author": "Rajnish Dashora, Shivam Barsaley",
