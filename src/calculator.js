@@ -8,9 +8,12 @@ function subtract(a,b){
 
 function divide(a,b)
 {
-	if(b===0)
-		return "BAD_INPUT";
-	return a/b;
+	var result=a/b;
+	if (isNaN(result))
+		return "Nan_found";
+	if (!isFinite(result))
+		return "Infinity_found";
+	return result;
 }
 
 function multiplication(a,b)
